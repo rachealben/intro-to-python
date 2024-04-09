@@ -80,7 +80,14 @@ print("Function: uppercase")
 
 def make_uppercase(string):
   # Return the string in uppercase
-  pass
+  return string.upper()
+
+# Function to check if two values are equal
+def check_that_these_are_equal(value1, value2):
+    if value1 == value2:
+        print("Test Passed!")
+    else:
+        print("Test Failed!")
 
 check_that_these_are_equal(
   make_uppercase("hello"), "HELLO")
@@ -97,7 +104,14 @@ print("Function: lowercase")
 
 def make_lowercase(string):
   # Return the string in lowercase
-  pass
+  return string.lower()
+
+# Function to check if two values are equal
+def check_that_these_are_equal(value1, value2):
+    if value1 == value2:
+        print("Test Passed!")
+    else:
+        print("Test Failed!")
 
 check_that_these_are_equal(
   make_lowercase("HELLO"), "hello")
@@ -115,7 +129,15 @@ print("Function: strip_whitespace")
 def strip_whitespace(string):
   # Return the string with any whitespace removed from
   # the start and end
-  pass
+ return string.strip()
+
+
+# Function to check if two values are equal
+def check_that_these_are_equal(value1, value2):
+    if value1 == value2:
+        print("Test Passed!")
+    else:
+        print("Test Failed!")
 
 check_that_these_are_equal(
   strip_whitespace("hello "), "hello")
